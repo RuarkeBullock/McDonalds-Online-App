@@ -68,5 +68,14 @@ namespace McDonalds_Online_App.Properties {
                 return ResourceManager.GetStream("Cash_Register_Cha_Ching_SoundBible_com_184076484", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Sharp_Punch_SoundBible_com_1947392621__1_ {
+            get {
+                return ResourceManager.GetStream("Sharp_Punch_SoundBible_com_1947392621__1_", resourceCulture);
+            }
+        }
     }
 }

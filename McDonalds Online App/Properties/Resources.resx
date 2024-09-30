@@ -121,4 +121,7 @@
   <data name="Cash_Register_Cha_Ching_SoundBible_com_184076484" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cash Register Cha Ching-SoundBible.com-184076484.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="Sharp_Punch_SoundBible_com_1947392621__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sharp Punch-SoundBible.com-1947392621 (1).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

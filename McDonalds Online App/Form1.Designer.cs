@@ -50,6 +50,7 @@
             this.changeLabel = new System.Windows.Forms.Label();
             this.printReceiptButton = new System.Windows.Forms.Button();
             this.receiptLabel = new System.Windows.Forms.Label();
+            this.newOrderButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -63,7 +64,7 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "McDonalds ";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+
             // 
             // burgersLabel
             // 
@@ -73,7 +74,7 @@
             this.burgersLabel.Size = new System.Drawing.Size(183, 37);
             this.burgersLabel.TabIndex = 1;
             this.burgersLabel.Text = "Number Of Burgers";
-            this.burgersLabel.Click += new System.EventHandler(this.label2_Click);
+
             // 
             // friesLabel
             // 
@@ -240,12 +241,25 @@
             this.receiptLabel.Size = new System.Drawing.Size(369, 370);
             this.receiptLabel.TabIndex = 22;
             // 
+            // newOrderButton
+            // 
+            this.newOrderButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.newOrderButton.ForeColor = System.Drawing.Color.Yellow;
+            this.newOrderButton.Location = new System.Drawing.Point(350, 456);
+            this.newOrderButton.Name = "newOrderButton";
+            this.newOrderButton.Size = new System.Drawing.Size(365, 38);
+            this.newOrderButton.TabIndex = 23;
+            this.newOrderButton.Text = "New Order";
+            this.newOrderButton.UseVisualStyleBackColor = true;
+            this.newOrderButton.Click += new System.EventHandler(this.newOrderButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Red;
             this.ClientSize = new System.Drawing.Size(727, 519);
+            this.Controls.Add(this.newOrderButton);
             this.Controls.Add(this.receiptLabel);
             this.Controls.Add(this.printReceiptButton);
             this.Controls.Add(this.changeLabel);
@@ -298,6 +312,7 @@
         private System.Windows.Forms.Label changeLabel;
         private System.Windows.Forms.Button printReceiptButton;
         private System.Windows.Forms.Label receiptLabel;
+        private System.Windows.Forms.Button newOrderButton;
     }
 }
 
